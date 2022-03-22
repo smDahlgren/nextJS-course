@@ -1,13 +1,14 @@
-import React from 'react'
+import Layout from '../components/Layout'
 
-const AboutPage = () => {
+export default function AboutPage() {
   return (
-    <>
-      <h1>About Page</h1>
-      <p>This is an app made to practive and learn NextJS</p>
-      <p>Version 1.0.0</p>
-    </>
+
+    <Layout title='About DJ Events'>
+    <div>
+      <h1>About</h1>
+      <p>This is an app to find the latest DJ and other musical events</p>
+      <p>Version: 1.0.0</p>
+    </div>
+    </Layout>
   )
 }
-
-export default AboutPage
